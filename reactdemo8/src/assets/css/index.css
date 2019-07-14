@@ -1,0 +1,18 @@
+.title{
+    text-align: center;
+    background-color:rgba(47,47,47,0.98);
+    line-height: 50px;
+
+}
+
+.title input{
+  line-height: 16px;
+  width: 350px;
+  border-radius: 25px;
+  padding-top: 10px;
+}
+.title span{
+  padding-right: 120px;
+  font-size: 30px;
+  color: #DDD;
+}

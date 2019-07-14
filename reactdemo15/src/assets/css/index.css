@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: silver;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  
+}
+img{
+  width: 114px;
+  height: 114px;
+}
+.home {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.home .item_cate {
+  height: 10px;
+  width: 100%;
+  line-height: 10px;
+  text-align: center;
+  margin: 10 auto;
+}
+.home .item_list{
+  padding-left: 10px;
+  
+}
+.home .item_list li{
+  width: 33.3%;
+  float: left;
+  margin-bottom: 10px;
+}
+.home .item_list:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.inner p {
+  height: 5px;
+}
+.inner .price{
+  color: red;
+}
