@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.home {
+  width: 100%;
+  height: 600px;
+  border: 1px solid black;
+}
+.home .title {
+  margin:20px 0 20px 20px;
+}
+.home .cdb {
+  width: 100%;
+  height: 97px;
+  /* border: 1px solid pink; */
+  display: flex;
+}
+.home .cdb .balance-price {
+  flex: 1;
+}
+.home .cdb .credit, .debit, .balance {
+  width: 33.3%;
+
+}
+.home .cdb .credit {
+  border: 1px solid #d9ebd0;
+  border-radius: 10px; 
+}
+.home .cdb .credit-name {
+  border: 1px solid #d9ebd0;
+  border-radius: 10px 10px 0 0; 
+  background-color: #d9ebd0;
+}
+
+.home .cdb .debit {
+  border: 1px solid #ecd5d3;
+  margin-left: 10px;
+  border-radius: 10px; 
+}
+.home .cdb .debit-name {
+  border: 1px solid #ecd5d3;
+  border-radius: 10px 10px 0 0; 
+  background-color: #ecd5d3;
+}
+
+.home .cdb .balance {
+  border: 1px solid #d0e6f2;
+  margin-left: 10px;
+  border-radius: 10px; 
+}
+.home .cdb .balance-name {
+  border: 1px solid #d0e6f2;
+  border-radius: 10px 10px 0 0; 
+  background-color: #d0e6f2;
+}
+
+.home .cdb .credit-name, .debit-name, .balance-name {
+  height: 49px;
+  line-height: 49px;
+  font-weight: 700;
+  padding-left: 20px;
+}
+.home .cdb .credit-price, .debit-price, .balance-price {
+  height: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  padding-left: 20px;
+}
+/* 表单 */
+.input {
+  margin: 20px 0;
+}
+.input .ant-calendar-picker {
+  width: 250px;
+  margin-right: 40px;
+}
+.input .ant-input {
+  width: 250px;
+  margin-right: 40px;
+}
+.input .ant-input-number {
+  width: 250px;
+}
+.input .ant-btn-primary {
+  margin-left: 30px;
+}
