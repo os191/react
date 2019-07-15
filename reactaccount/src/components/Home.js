@@ -1,5 +1,5 @@
 import React , {Component} from 'react';
-import { Button ,DatePicker ,Input,InputNumber,Table,Alert    } from 'antd';
+import { Button ,DatePicker ,Input,InputNumber,Table   } from 'antd';
 import Storage from './model/Storage.js';
 
 const columns = [
